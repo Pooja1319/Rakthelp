@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os
+import django_heroku
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
@@ -31,9 +32,9 @@ SECRET_KEY = 'django-insecure-jqzamamizwmypkt_*8il)72!t%&+n5k3_*u!5zdnd*glk9-n3i
 # SECURITY WARNING: don't run with debug turned on in production!
 
 CSRF_COOKIE_SECURE=False
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rakthelp.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -155,3 +156,4 @@ EMAIL_RECEIVING_USER = ['to@gmail.com'] # email on which you will receive messag
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+django_heroku.settings(locals())
