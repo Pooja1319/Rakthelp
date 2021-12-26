@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-jqzamamizwmypkt_*8il)72!t%&+n5k3_*u!5zdnd*glk9-n3i
 # SECURITY WARNING: don't run with debug turned on in production!
 
 CSRF_COOKIE_SECURE=False
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['rakthelp.herokuapp.com', 'localhost', '127.0.0.1']
 
