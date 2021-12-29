@@ -24,6 +24,8 @@ py manage.py createsuperuser
 - Can Update Unit Of Particular Blood Group.
 
 
+### For admin login use the credentials username:- admin , password :- 12345678 , for test purpose on hosted URl
+
 ### Donor
 - Donor can create account by providing basic details.
 - After Login, Donor can donate blood, After approval from admin only, blood will be added to blood stock.
