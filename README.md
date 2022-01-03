@@ -11,7 +11,7 @@ This is a blood bank management system
 - Azure Compute Engine
 - Resource Groups
 
-## Functions
+## Functions of the Rakthelp (Description)
 
 ### Admin
 - Create Admin account using following command
