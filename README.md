@@ -1,6 +1,9 @@
 # Rakthelp
 This is a blood bank management system 
 
+# Project Synopsis
+
+- This project is based on health industry ,
 
 
 
