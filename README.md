@@ -3,7 +3,8 @@ This is a blood bank management system
 
 # Project Synopsis
 
-- This project is based on health industry ,
+- This project is based on health industry .
+- Basically Rakthelp is a Blood bank management system , A user can requests blood at any time from blood bank , and Admin can approve the request of the user at any time at any place .
 
 
 
