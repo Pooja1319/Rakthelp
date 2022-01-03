@@ -1,10 +1,16 @@
 # Rakthelp
 This is a blood bank management system 
 
-# Project Synopsis
+## Project Synopsis
 
 - This project is based on health industry .
 - Basically Rakthelp is a Blood bank management system , A user can requests blood at any time from blood bank , and Admin can approve the request of the user at any time at any place .
+   # Technologies used in it
+   - Python 
+   - Django
+   - SQL database
+   - Html
+   - Css
 
 ## Azure Services  we used to deploy
 - Azure App service
