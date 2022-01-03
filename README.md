@@ -13,6 +13,8 @@ This is a blood bank management system
 
 ## Functions of the Rakthelp (Description)
 
+Link of the deployed application :- https://rakthelp.azurewebsites.net/
+
 ### Admin
 - Create Admin account using following command
 ```
